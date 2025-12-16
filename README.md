@@ -46,6 +46,7 @@ Bridge rectifier with filter:
 
 TABULAR COLUMN
 Rectifier without filter
+
  |INPUT VOLTAGE|OUTPUT VOLTAGE|
                |----:|----:|
  |----:|without filter|with filter|
