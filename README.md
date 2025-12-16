@@ -47,12 +47,33 @@ Bridge rectifier with filter:
 TABULAR COLUMN:
 Rectifier without filter
 
-| Input Voltage |            | Output Voltage                                      |
- |------------------------:|--------------:|------------:|----------:|------------:|
- |                         | Without Filter |            | With Filter|            |
- |------------------------:|---------------:|-----------:|-----------:|-----------:|
- | Vm (V)        | t (ms)  | Vm (V)         | t (ms)     | Vm (V)     | t (ms)     |
- | 100           | 20      | 100            | 10         | 100V, 5V   | 5 ms, 25 ms|
+<table>
+  <tr>
+    <th colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Vm (V)</th>
+    <th rowspan="2">t (ms)</th>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>20</td>
+    <td>100</td>
+    <td>10</td>
+    <td>100V, 5V</td>
+    <td>5 ms, 25 ms</td>
+  </tr>
+</table>
+
 
 Rectifier with filter
 
