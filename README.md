@@ -37,15 +37,18 @@ PROCEDURE:
 CIRCUIT DIAGRAMS
 
 Half wave rectifier with filter:
+
+
 <img width="791" height="567" alt="image" src="https://github.com/user-attachments/assets/3b4a762d-5f97-4953-b241-f0a0547e01d1" />
 
 
 Bridge rectifier with filter:
+
+
 <img width="801" height="413" alt="Screenshot 2025-12-16 181202" src="https://github.com/user-attachments/assets/4a8d4142-5ae7-4f31-b059-7a9246fe282f" />
 
 
 TABULAR COLUMN:
-Rectifier without filter
 
 <table>
   <tr>
@@ -75,9 +78,42 @@ Rectifier without filter
 </table>
 
 
-Rectifier with filter
+DIAGRAM:
+<img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/3b2e5461-a024-4de3-8390-f6abf75363fa" />
 
-WAVEFORM:|
+
+WAVEFORM:
+
+<img width="798" height="402" alt="image" src="https://github.com/user-attachments/assets/78a82de6-e220-4f61-94d7-2e1c269b7a2e" />
+
+TABULAR COLUMN:
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th rowspan="2" colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+  <td>50</td>
+    <td>20</td>
+    <td>50</td>
+    <td>5</td>
+    <td>50, 46</td>
+    <td>5 ms, 14 ms</td>
+  </tr>
+</table>
+
 
 
 RESULT:
