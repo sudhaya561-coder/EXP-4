@@ -44,14 +44,15 @@ Bridge rectifier with filter:
 <img width="801" height="413" alt="Screenshot 2025-12-16 181202" src="https://github.com/user-attachments/assets/4a8d4142-5ae7-4f31-b059-7a9246fe282f" />
 
 
-TABULAR COLUMN
+TABULAR COLUMN:
 Rectifier without filter
 
-| Input Voltage |        | Output Voltage |                                  |
- |---------------|-----------|-------------|------------|------------|------------|
- |               |        | Without Filter |            | With Filter|            |
- | Vm (V)        | t (ms) | Vm (V)         | t (ms)     | Vm (V)     | t (ms)     |
- | 100           | 20     | 100            | 10         | 100V, 5V   | 5 ms, 25 ms|
+| Input Voltage |            | Output Voltage                                      |
+ |------------------------:|--------------:|------------:|----------:|------------:|
+ |                         | Without Filter |            | With Filter|            |
+ |------------------------:|---------------:|-----------:|-----------:|-----------:|
+ | Vm (V)        | t (ms)  | Vm (V)         | t (ms)     | Vm (V)     | t (ms)     |
+ | 100           | 20      | 100            | 10         | 100V, 5V   | 5 ms, 25 ms|
 
 Rectifier with filter
 
